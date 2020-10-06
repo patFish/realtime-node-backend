@@ -1,0 +1,18 @@
+{
+  "name": "realtime-node-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:patFish/realtime-node-backend.git",
+  "author": "patFish <fischer.pa7rick@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
